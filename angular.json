@@ -24,13 +24,17 @@
                         ],
                         "styles": [
                             "src/styles.css",
-                            "assets/b4/css/bootstrap.min.css",
-                            "assets/font-awesome/fontawesome.css"
+                            "src/assets/b4/css/bootstrap.min.css",
+                            "src/assets/font-awesome/css/all.min.css"
+
                         ],
                         "scripts": [
-                            "assets/jquery/jquery.js",
-                            "assets/popper/popper.js",
-                            "assets/b4/js/bootstrap.min.js"
+                            "src/assets/jquery/jquery.js",
+                            "src/assets/popper/popper.js",
+                            "src/assets/b4/js/bootstrap.min.js"
+
+
+
                         ],
                         "es5BrowserSupport": true
                     },
