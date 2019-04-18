@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClasesComponent implements OnInit {
   
+  loading:boolean = false;
   alert:string ="alert-danger";
   propiedades: Object = {
     danger: false
@@ -13,6 +14,11 @@ export class ClasesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  ejecutar(){
+    this.loading = true;
+    setTimeout( () => this.loading = false, 3000  );
   }
 
 }
